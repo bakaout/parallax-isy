@@ -67,7 +67,8 @@ body, html{
 /*~~~~~~COMEÇANDO O EFEITO PARALLAX~~~~~~*/
 .centralizando, .princesa1, .princesa2, .princesa3, .princesa4, .princesa5{
     height: 100%;/*cada div ocupa uma tela inteira*/
-    background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)*/
+    -webkit-background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)*/
+    background-attachment: fixed;
 }
 .centralizando{
     position: relative;
@@ -109,10 +110,18 @@ body, html{
     }
     .princesa1{
         background-image: url(./img/CopilotaFelizpq.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;/*fazendo com que a imagem de todos NÃO se repita*/
-        background-position: center;
-        
+    }
+    .princesa2{
+        background-image: url(./img/CopilotaFelizpq.jpg);
+    }
+    .princesa3{
+        background-image: url(./img/CopilotaFelizpq.jpg);
+    }
+    .princesa4{
+        background-image: url(./img/CopilotaFelizpq.jpg);
+    }
+    .princesa5{
+        background-image: url(./img/CopilotaFelizpq.jpg);
     }
 }
 
