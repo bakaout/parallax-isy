@@ -113,10 +113,10 @@ body, html{
     .centralizando, .princesa1, .princesa2, .princesa3, .princesa4, .princesa5{
         height: 100%;/*cada div ocupa uma tela inteira*/
         background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)*/
-        background-size: 100% auto;
+        background-size: cover;
     }
     .princesa1{
-        background-image: url(./img/CopilotaFelizpq.jpg);
+        background-image: url(./img/elaNoia1.jpg);
     }
     .princesa2{
         background-image: url(./img/elaLindapq.jpg);
