@@ -104,9 +104,12 @@ body, html{
     .conteudo{
         text-align: justify;
         color: white;
-        padding: 50px 80px;
+        padding: 40px;
         position: absolute;
-        top: 6%;
+        top: 15%;
+    }
+    .apresentacao p, .conteudo p{
+        font-size: 1.3em;
     }
     .princesa1{
         background-image: url(./img/CopilotaFelizpq.jpg);
