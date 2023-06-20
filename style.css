@@ -110,15 +110,19 @@ body, html{
     .apresentacao p, .conteudo p{
         font-size: 1.3em;
     }
+    .centralizando, .princesa1, .princesa2, .princesa3, .princesa4, .princesa5{
+        height: 100%;/*cada div ocupa uma tela inteira*/
+        background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)*/
+        background-size: 100% auto;
+    }
     .princesa1{
-        background-image: url(./img/CopilotaFelizteste.jpg);
-        background-size: cover;
+        background-image: url(./img/CopilotaFelizpq.jpg);
     }
     .princesa2{
-        background-image: url(./img/CopilotaFelizpq.jpg);
+        background-image: url(./img/elaLindapq.jpg);
     }
     .princesa3{
-        background-image: url(./img/CopilotaFelizpq.jpg);
+        background-image: url(./img/elaNoiapq.jpg);
     }
     .princesa4{
         background-image: url(./img/CopilotaFelizpq.jpg);
