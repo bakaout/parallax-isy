@@ -97,7 +97,7 @@ body, html{
     background-repeat: no-repeat;/*fazendo com que a imagem de todos NÃO se repita*/
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
     .centralizando{
         position: relative;
     }
@@ -113,6 +113,7 @@ body, html{
     }
     .princesa1{
         background-image: url(./img/CopilotaFelizpq.jpg);
+        background-size: cover;
     }
     .princesa2{
         background-image: url(./img/CopilotaFelizpq.jpg);
