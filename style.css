@@ -67,7 +67,6 @@ body, html{
 /*~~~~~~COMEÇANDO O EFEITO PARALLAX~~~~~~*/
 .centralizando, .princesa1, .princesa2, .princesa3, .princesa4, .princesa5{
     height: 100%;/*cada div ocupa uma tela inteira*/
-    -webkit-background-attachment: fixed;
     background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)*/
 }
 .centralizando{
@@ -112,7 +111,7 @@ body, html{
         font-size: 1.3em;
     }
     .princesa1{
-        background-image: url(./img/CopilotaFelizpq.jpg);
+        background-image: url(./img/CopilotaFelizteste.jpg);
         background-size: cover;
     }
     .princesa2{
