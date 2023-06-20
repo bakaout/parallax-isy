@@ -96,6 +96,7 @@ body, html{
     background-repeat: no-repeat;/*fazendo com que a imagem de todos NÃO se repita*/
 }
 
+/*
 @media(max-width: 680px){
     .centralizando{
         position: relative;
@@ -112,7 +113,7 @@ body, html{
     }
     .centralizando, .princesa1, .princesa2, .princesa3, .princesa4, .princesa5{
         height: 100%;/*cada div ocupa uma tela inteira*/
-        background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)*/
+        background-attachment: fixed;/*ISTO É O QUE FAZ O PARALLAX ACONTECER(a imagem fixa fixa enquanto a de baixo sobre e sobrepõe)
         background-size: cover;
     }
     .princesa1{
@@ -134,7 +135,7 @@ body, html{
 
 
 
-/*
+
 add{
 text-align: justify;
 padding: 50px 80px;
